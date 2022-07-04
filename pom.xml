@@ -180,6 +180,10 @@
         <groupId>com.github.spotbugs</groupId>
         <artifactId>spotbugs-maven-plugin</artifactId>
         <version>4.7.0.0</version>
+        <configuration>
+          <excludeFilterFile>./ignore.xml</excludeFilterFile>
+          <outputDirectory>${project.reporting.outputDirectory}</outputDirectory>
+        </configuration>
         <executions>
           <execution>
             <id>pmd</id>
