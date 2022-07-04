@@ -1,0 +1,13 @@
+{
+  "title": "My Bill",
+  "guid": "20220HB1002",
+  "description": "Bill for Testing",
+  "link": "http://www.example.com",
+  "pubDate": "Fri, 01 Jul 2022 15:40:23 GMT",
+  "primeSponsor": "REP SMITH",
+  "coSponsors": "AUMENT, PHILLIPS-HILL",
+  "lastAction": "Presented to the Governor, July 1, 2022",
+  "enacted": true,
+  "passedHouse": true,
+  "passedSenate": true
+}
