@@ -13,6 +13,7 @@ import com.lswebworld.bills.data.serializers.ZonedDateTimeSerializer;
 import java.time.ZonedDateTime;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.persistence.Table;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
@@ -32,6 +33,7 @@ public class BillInfo {
   @JsonProperty("title")
   private String title;
 
+  @Id
   @Column(name = "identifier")
   @JsonProperty("guid")
   private String identifier;
